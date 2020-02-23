@@ -1,3 +1,11 @@
+This feature gives latitude and longitude.
+
+if (latitude and longitude given by device) = (Latitude and longitude of the NYKS office saved)
+   Attendance taken
+else
+   Attendance marked absent
+
+
 # Step 1:
 
 ![Screenshot (72)](https://user-images.githubusercontent.com/45221397/75110479-bc066a00-5654-11ea-8ed9-8bc22268a0ce.png)
