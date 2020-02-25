@@ -93,3 +93,27 @@ body {
   .copyright {
 	  float: left;
   }
+
+  .map{
+	  padding: 20px;
+	  height: auto;
+	  width: auto;
+  }
+
+  .Head{
+	  text-align: center;
+	  padding: 60px 16px;
+	  font-size: x-large;
+  }
+
+  .text{
+	  font-size: xx-large;
+	  text-align: center;
+  }
+
+  .instruction{
+	  font-size: large;
+	  text-align: center;
+	  
+  }
+  
