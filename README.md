@@ -18,6 +18,10 @@ This is a web app which will be taking attendance of the employees working in th
 
 6. Voice recognition feature will be there for authentication purpose.
 
+7. In any case of situations where user is not marked present even after being in the office, employee can contact the Nodal officer who, via the Admin page will be able to mark them absent or present. 
+
+8. ( *Will be available in version 2.0* ) The app will be only accessable in the office hours.
+
 
 The web app is made with help of HTML, CSS, JavaScript as it's frontend and React JS , Node JS , Express and Socket.io
 
