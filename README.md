@@ -1,6 +1,6 @@
 # SIH--Attendance-Web-App
 
-*Pages and their makers-*
+*CONTRIBUTIONS*
 
 1. *Home Page by Sayan Bandyopadhyay*
 
@@ -12,6 +12,8 @@
       *Whole Page developed by Sayan Bandyopadhyay*
 
 *A project made for Central Government (Ministry of youth affairs)*
+
+
 
 **FEATURES**
 
