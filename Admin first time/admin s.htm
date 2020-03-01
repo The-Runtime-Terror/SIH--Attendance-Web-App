@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title>Admin First Time Sign In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<header>
+
+
+    <div class="navbar">
+      <div class="image">
+        <img src=logo.jpg align="left">
+      </div>
+    
+     <! home button >
+    
+      <a href="C:\Users\Sayan\Desktop\Dev\Run time Terror\NYKS layout\Home Page\Home.html">Home</a>
+      
+      <div class="dropdown">
+        <button class="dropbtn">User
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sign In</a>
+          <a href="#">Log In</a>
+        </div>
+      </div> 
+    
+      <! Admin button >
+    
+    
+      <div class="dropdown">
+        <button class="dropbtn">Admin
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Sign In</a>
+          <a href="#">Log In</a>
+        </div>
+      </div> 
+      <div class="Head">Attendance Web App</div>
+      
+     
+    
+    </div>
+    </header>
+
+
+<body>
+
+   <center> <h2><i>Admin First time sign in</i></h2> </center>
+
+<center><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></center><br>
+
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="uname"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="uname" required>
+
+      <label for="uname"><b>Officer post</b></label>
+      <input type="text" placeholder="Enter your post" name="uname" required>
+
+      <label for="psw"><b>Enter Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw"><b>Confirm Password</b></label>
+      <input type="password" placeholder="confirm Password" name="psw" required>
+
+      <label for="uname"><b>Enter office location</b></label>
+      <input type="text" placeholder="Enter the state name only" name="uname" required>
+
+      <label for="uname"><b>Confirm Office location</b></label>
+      <input type="text" placeholder="You will not be able to change this again" name="uname" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw"><a href="#">Forgot password?</a></span>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+<div class="footer">
+  
+  <! Copyright>
+
+  <div class="copyright">
+    <p>Copyright &copy; 2020 RuntimeTerror</p>
+  </div>
+
+
+   <div class="icons">
+   <p style="text-align:center">
+    <!--Facebook icon-->
+    <a href="#" target="_blank"><img alt="" src="fb.png" /> </a>&nbsp;
+    <!--Github icon-->
+    <a href="https://github.com/The-Runtime-Terror" target="_blank"><img alt="" src="Github.png" /> </a>&nbsp;
+    <!--instagram icon-->
+    <a href="#" target="_blank"><img alt="" src="insta.png" /> </a>&nbsp;
+    <!--Linkedin icon-->
+    <a href="#" target="_blank"><img alt="" src="Linkedin.png" /> </a>
+    </p>
+  </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+
+
+
+
+<script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
+
+
+</body>
+</html>
