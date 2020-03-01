@@ -1,13 +1,18 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	
+	background-color: white;
+	color: black;
+	
+  }
+  
+  .dark-mode {
+	background-color: black;
+	color: white;
   }
   
 
-  header img{
-	margin-left: 20px;
-	padding: 2px;
-	height: 150px;
-	width: 200px;
+  .image {
+	margin-left: 10px;
 	
 	
 }
@@ -23,7 +28,7 @@ body {
 	font-size: 16px;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 16px 14px;
 	text-decoration: none;
   }
   
@@ -37,7 +42,7 @@ body {
 	border: none;
 	outline: none;
 	color: white;
-	padding: 14px 16px;
+	padding: 16px 14px;
 	background-color: inherit;
 	font-family: inherit;
 	margin: 0;
@@ -116,4 +121,11 @@ body {
 	  text-align: center;
 	  
   }
+
+  .toggle {
+	position: absolute;
+	
+	font-size: 18px;
+  }
+  
   
