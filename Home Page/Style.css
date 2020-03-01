@@ -126,5 +126,23 @@ body {
 	position: absolute;
 	font-size: 18px;
   }
+
+  
+
+  .admin a:hover{
+
+	  	    
+				background-color: #ffb3b3;
+				color: white;
+				
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+			
+  		}
+
+  		.ff{
+  			font-size: 25px;
+  		}
   
   
