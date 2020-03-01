@@ -1,5 +1,16 @@
 # SIH--Attendance-Web-App
 
+*Pages and their makers-*
+
+1. *Home Page by Sayan Bandyopadhyay*
+
+2. *Admin Existing log in page - Rittick agarwal*
+
+3. *Admin First Time sign in page* - 
+    
+      *Page Formatted by Shilpa Chowdhury*
+      *Whole Page developed by Sayan Bandyopadhyay*
+
 *A project made for Central Government (Ministry of youth affairs)*
 
 **FEATURES**
