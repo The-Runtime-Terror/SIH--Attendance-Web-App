@@ -8,7 +8,7 @@
 
 3. *Admin First Time sign in page* - 
      
-      *Page Formatted by Shilpa Chowdhury* &
+      *Page Formatted and structured by Shilpa Chowdhury* &
       *Whole Page developed by Sayan Bandyopadhyay*
       
       
