@@ -1,5 +1,9 @@
 # SIH--Attendance-Web-App
 
+**For people who are not members of Runtime Terror**
+
+[Please Read The terms and conditions before Editing or copying](https://github.com/The-Runtime-Terror/SIH--Attendance-Web-App/blob/master/Terms%20and%20Conditions.md)
+
 *CONTRIBUTIONS*
 
 1. *Home Page by Sayan Bandyopadhyay*
