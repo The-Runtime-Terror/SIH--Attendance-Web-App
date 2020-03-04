@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Existing User log in</title>
+	<link rel="stylesheet" href="css/Style.css">
+</head>	
+
+	<header>
+
+
+		<div class="navbar">
+		  <div class="image">
+			<img src=images/logo.jpg align="left">
+		  </div>
+		
+		 <! home button >
+		
+		  <a href="file:///C:/Users/Sayan/Desktop/Dev/Run%20time%20Terror/SIH--Attendance-Web-App-master/Home%20Page/Home.html">Home</a>
+		  
+		  <div class="dropdown">
+
+			<! User button>
+			<button class="dropbtn">User
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			  <a href="file:///C:/Users/Sayan/Desktop/Dev/Run%20time%20Terror/SIH--Attendance-Web-App-master/User%20First%20Time%20Sign%20in/UserFirst.html">Sign In</a>
+			  <a href="file:///C:/Users/Sayan/Desktop/Dev/Run%20time%20Terror/SIH--Attendance-Web-App-master/User%20Log%20in/Existing%20user%20sign%20in.html">Log In</a>
+			</div>
+		  </div> 
+		
+		  <! Admin button >
+		
+		
+		  <div class="dropdown">
+			<button class="dropbtn">Admin
+			  <i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			  <a href="file:///C:/Users/Sayan/Desktop/Dev/Run%20time%20Terror/SIH--Attendance-Web-App-master/Admin%20first%20time/admin%20s.htm">Sign In</a>
+			  <a href="file:///C:/Users/Sayan/Desktop/Dev/Run%20time%20Terror/SIH--Attendance-Web-App-master/Admin%20log%20in/Existing%20admin%20sign%20in.html">Log In</a>
+			</div>
+		  </div> 
+		  <div class="Head">Attendance Web App</div>
+		  
+		 
+		</div>
+		</header>
+
+
+		<body>
+
+			<! Head>
+		<center><i>	<h2>User Log In</h2> </i> </center>
+
+		<! login>
+		<center>	<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> </center>
+
+		<! Dark mode>
+		<br><center> <button onclick="myFunction()".style.display='block'" style="width:auto;">Switch to Dark mode</button> </center>
+			
+			<div id="id01" class="modal">
+			  
+			  <form class="modal-content animate" action="/action_page.php" method="post">
+				<div class="imgcontainer">
+				  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				  <img src="img_avatar2.png" alt="Avatar" class="avatar">
+				</div>
+			
+				<div class="container">
+				  <label for="uname"><b>Username</b></label>
+				  <input type="text" placeholder="Enter Username" name="uname" required>
+			
+				  <label for="psw"><b>Password</b></label>
+				  <input type="password" placeholder="Enter Password" name="psw" required>
+					
+				  <button type="submit">Login</button>
+				  <label>
+					<input type="checkbox" checked="checked" name="remember"> Remember me
+				  </label>
+				</div>
+			
+				<div class="container" style="background-color:#f1f1f1">
+				  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+				  <span class="psw"> New user?<a href="#"> Register</a></span>
+				</div>
+			  </form>
+			</div>
+			
+			<script>
+			// Get the modal
+			var modal = document.getElementById('id01');
+			
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+
+			function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+
+			</script>
+
+		</body>
+        
+
+			<div class="footer">
+
+  <div class="copyright">
+    <p>Copyright &copy; 2020 RuntimeTerror</p>
+  </div>
+
+
+  <div class="icons">
+  <p style="text-align:center">
+    <!--Facebook icon-->
+    <a href="#" target="_blank"><img alt="" src="images/fb.png" /> </a>&nbsp;
+    <!--Github icon-->
+    <a href="https://github.com/The-Runtime-Terror" target="_blank"><img alt="" src="images/Github.png" /> </a>&nbsp;
+    <!--instagram icon-->
+    <a href="#" target="_blank"><img alt="" src="images/insta.png" /> </a>&nbsp;
+    <!--Linkedin icon-->
+    <a href="#" target="_blank"><img alt="" src="images/Linkedin.png" /> </a>
+    </p>
+</div>
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
+
