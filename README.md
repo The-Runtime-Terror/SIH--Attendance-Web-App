@@ -6,17 +6,18 @@
 
 *CONTRIBUTIONS*
 
-1. *Home Page by Sayan Bandyopadhyay*
+**PHASE 1**
 
-2. *Admin Existing log in page - Rittick agarwal*
+1. Home Page by *Sayan Bandyopadhyay*
 
-3. *Admin First Time sign in page* - 
+2. Admin and User Existing log in page - *Rittick agarwal*
+
+3. Admin First Time sign in page - *Sayan Bandyopadhyay*
+
+4. User First time log in page - *Zubair MD. Kabir*
+
+5. Admin page ( after logging in) - *Arzanish Yusuf Nadeem*
      
-      *Page Formatted and structured by Shilpa Chowdhury* &
-      *Whole Page developed by Sayan Bandyopadhyay*
-      
-      
-
 *A project made for Central Government (Ministry of youth affairs)*
 
 **FEATURES**
